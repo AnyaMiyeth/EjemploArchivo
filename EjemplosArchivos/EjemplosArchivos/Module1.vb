@@ -33,7 +33,7 @@ Module Module1
         ' Consultar un Registro de un Archivo
         Console.WriteLine("Consultar x Telefono")
         Dim contacto As Contactos
-        contacto = datos.GetPk("317777777")
+        contacto = datos.GetPk("317777785")
         If Not contacto Is Nothing Then
             Console.WriteLine(contacto.Nombre)
         Else
